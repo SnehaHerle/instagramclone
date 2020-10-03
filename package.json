@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Learning how to create a clone of Instagram.",
   "main": "app.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start" : "node app.js",
-    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION = false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Sneha Herle",
   "license": "ISC",
