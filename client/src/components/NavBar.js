@@ -22,7 +22,7 @@ const NavBar = ()=>{
         <li key="1"><i data-target="modal1" className="large material-icons modal-trigger">search</i></li>,
         <li key="2"><Link to="/profile">Profile</Link></li>,
         <li key="3"><Link to="/create">Create Post</Link></li>,
-        <li key="4"><Link to="/myfollowersposts">My Follower's Posts</Link></li>,
+        <li key="4"><Link to="/myfollowersposts">My Feed</Link></li>,
         <li key="5">
           <button className="btn #90a4ae blue-grey lighten-2"
                 onClick = {()=>{
