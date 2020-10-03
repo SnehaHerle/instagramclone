@@ -6,6 +6,12 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const {JWT_SECRET} = require('../config/keys')  //restructuring from json.
 const requireLogin = require('../middleware/requireLogin')
+const nodemailer = require('nodemailer')
+const sendgridTransport = require('nodemailer-sendgrid-transport')
+
+//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
+
+
 
 
 //default route
@@ -53,6 +59,12 @@ router.post('/signup', (req, res) => {
                     //save the document to the database.
                     user.save()
                         .then(user => {
+                            transporter.sendMail({
+                                to: user.email,
+                                from: "sneha.herle@gmail.com",
+                                subject: "Signed Up Successfully",
+                                html: "<h1>Welcome!</h1>"
+                            })
                             res.json({
                                 message: "Saved successfully!"
                             })
