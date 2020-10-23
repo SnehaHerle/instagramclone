@@ -3,8 +3,11 @@
 # Signin Page
 <img width="1440" alt="Screenshot 2020-10-23 at 11 05 03 AM" src="https://user-images.githubusercontent.com/22171885/96960326-c0569000-151f-11eb-803a-86f68df914bc.png">
 
-# Feed page
+# Feed Page
 <img width="1440" alt="Screenshot 2020-10-23 at 11 10 57 AM" src="https://user-images.githubusercontent.com/22171885/96960662-8e91f900-1520-11eb-98c2-a28a7bf0fd6b.png">
+
+# Profile Page
+<img width="1440" alt="Screenshot 2020-10-23 at 11 23 17 AM" src="https://user-images.githubusercontent.com/22171885/96961462-55f31f00-1522-11eb-8284-20b9ef8a6b8d.png">
 
 # Link to the website
 https://instagram-clone-oct-4.herokuapp.com/signin
