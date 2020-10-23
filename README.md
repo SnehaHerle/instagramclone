@@ -41,7 +41,7 @@ The project is open source.
 You should have Node.js and Git installed on your PC. You should also own a GitHub account.
 
 # Setup And Deployment
-1. To Get Started, Fork this repository to your GitHub account:    
+1. To Get Started, Fork this repository to your GitHub account.        
 1. Clone the forked repo from your account using:    
    `git clone https://github.com/<your-username>/instagramclone.git`    
 1. Open terminal and execute in the main directory of the project to start the Node server at port 5000:    
