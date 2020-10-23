@@ -1,3 +1,7 @@
+# Instagram Clone
+<img width="1440" alt="Screenshot 2020-10-23 at 11 05 03 AM" src="https://user-images.githubusercontent.com/22171885/96960326-c0569000-151f-11eb-803a-86f68df914bc.png">
+
+
 # Link to the website
 https://instagram-clone-oct-4.herokuapp.com/signin
 
