@@ -9,9 +9,6 @@ const requireLogin = require('../middleware/requireLogin')
 const nodemailer = require('nodemailer')
 const sendgridTransport = require('nodemailer-sendgrid-transport')
 
-//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
-
-
 
 
 //default route
